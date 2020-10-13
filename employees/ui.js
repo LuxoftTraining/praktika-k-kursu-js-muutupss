@@ -18,7 +18,7 @@ const PLACEHOLDER = "employeesPlaceholder"
     function showEmployees(employeesJSON) {
         let employees = jsonToEmployees(employeesJSON);
         const html = showEmployeesView(
-            getEmployees(), employees);
+            employees, employees);
         document.getElementById(PLACEHOLDER).innerHTML = 
             html;
     }
