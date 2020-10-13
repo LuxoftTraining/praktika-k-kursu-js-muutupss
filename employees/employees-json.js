@@ -5,31 +5,36 @@ const DATA = {
        id: 1,
        name: "Pavel",
        surname: "Pavlushin",
-       department: "IT"
+       department: "IT",
+       salary: 1000
       },
       {
         id: 2,
         name: "Fuf",
         surname: "Guf",
-        department: "IT"
+        department: "IT",
+        salary: 3000
        },
        {
         id: 3,
         name: "Mou",
         surname: "Hou",
-        department: "Score"
+        department: "Score",
+        salary: 4000
        },
        {
         id: 4,
         name: "Poop",
         surname: "Shpot",
-        department: "Score"
+        department: "Score",
+        salary: 2500
        },
        {
         id: 5,
         name: "Hohy",
         surname: "Poku",
-        department: "Nani"
+        department: "Nani",
+        salary: 1300
        },
       ]
    }

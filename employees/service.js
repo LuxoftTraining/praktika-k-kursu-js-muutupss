@@ -66,7 +66,6 @@ export function findById(id){
         let res = {}
         DATA.employees.forEach((em) => {
             if (em.id == id){
-                console.log(em)
                 employeeMap[id] = em
                 res = em
             }
